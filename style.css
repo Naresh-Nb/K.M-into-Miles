@@ -1,0 +1,39 @@
+.box{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  color:green;
+  position: relative;
+  right:0;
+  animation:animate linear 15s infinite;
+}
+@keyframes animate{
+  0%{
+    right:0;
+  }
+  100%{
+    right:400px;
+  }
+}
+h1{
+  border: 2px solid red;
+  
+  
+}
+#data{
+  border: 2px solid blue;
+  color:red;
+  border-radius: 10px;
+}
+#click{
+  margin-left: 38px;
+  margin-top:5px;
+  background-color: yellow;
+  border:2px solid black;
+}
+#copy{
+  text-align: center;
+  color:purple;
+  
+}
+
